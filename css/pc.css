@@ -1,0 +1,33 @@
+@charset 'utf8';
+/*初始化*/
+body{margin: 0;padding: 0;background-color: rgb(204,232,207);}
+ul{list-style: none;margin: 0;padding: 0}
+img{border: none;}
+div{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none;color: #222}
+/**/
+.pc{width: 1200px;height: 800px;margin: 40px auto;min-width: 120px;}
+/**/
+.pc_seach{width: 630px;height: 130px;margin: 100px auto 0;overflow: hidden;}
+.pc_seach h2{text-align: center;width: 600px;}
+.pc_seach div:first-child{box-shadow: 5px 5px 5px #ccc;}
+.pc_seach div:first-child input{float: left;padding-left: 20px;border: none;width: 500px;height: 40px;
+	outline: none;font-size: 18px;}
+.pc_seach div:last-child input{float: left;width: 100px;height: 40px;border: none;
+	background-color: rgba(47,158,250,.7);color: white;font-size: 16px;}
+.pc_seach div:last-child input:hover{cursor: pointer;}
+/**/
+.pc_nav{width: 1200px;height: 320px;margin: 20px 0;overflow: hidden;}
+.pc_nav ul li{float: left;width: 225px;height: 125px;margin: 20px 15px 0 0;}
+.pc_nav ul li img{border-radius: 5px;}
+/**/
+.pc_list{width: 1200px;height: 170px;overflow: hidden;position: relative;}
+.pc_list_tit{width: 962px;height: 30px;overflow: hidden;border-radius: 3px;
+	text-align: center;line-height: 30px;}
+.pc_list_tit div{float: left;width: 120px;height: 30px;background-color: rgb(240,248,241)}
+.active{background-color: white !important;display: block !important;}
+.pc_list_lists{position: absolute;left: 0;top: 30px;width: 1200px;height: 230px;background-color: white}
+.pc_list_lists a{font-size: 14px;}
+.pc_list_lists div{display: none;width: 1200px;height: 230px;position: absolute;left: 0px;top: 0px;}
+.pc_list_lists ul li{float: left;height: 20px;margin: 20px 20px 0px;background: 0px 0px no-repeat;
+	background-size: 20px 20px;padding-left: 25px;width:100px;}

@@ -1,0 +1,64 @@
+function nav(){$("#tj").hover(function(){
+	$("#tjlist").addClass("active");
+	$("#gwlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#gw").hover(function(){
+	$("#gwlist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#sp").hover(function(){
+	$("#splist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#gwlist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#yx").hover(function(){
+	$("#yxlist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#gwlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#xw").hover(function(){
+	$("#xwlist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#gwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#zzs").hover(function(){
+	$("#zzslist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#gwlist").removeClass("active");
+	$("#tylist").removeClass("active");
+})
+$("#ty").hover(function(){
+	$("#tylist").addClass("active");
+	$("#tjlist").removeClass("active");
+	$("#splist").removeClass("active");
+	$("#yxlist").removeClass("active");
+	$("#xwlist").removeClass("active");
+	$("#zzslist").removeClass("active");
+	$("#gwlist").removeClass("active");
+})
+}

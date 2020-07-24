@@ -2,9 +2,209 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>大脚导航</title>
+	<link rel="stylesheet" href="css/pc.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/js.js"></script>
 </head>
 <body>
-	so
+	<div class="pc">
+		<div class="pc_seach">
+			<h2>大脚导航</h2>
+			<form action="http://www.baidu.com/s" method="get">
+				<div><input type="text" name="wd" autocomplete="off"></div>
+				<div><input type="submit" value="go"></div>
+			</form>
+		</div>
+		<div class="pc_nav">
+			<ul>
+				<li><a href="https://www.hao123.com/"><img src="img/hao123.png"></a></li>
+				<li><a href="https://jx.tmall.com/"><img src="img/jx_tmall.png"></a></li>
+				<li><a href="https://www.jd.com/"><img src="img/jd.png"></a></li>
+				<li><a href="http://www.sina.com/"><img src="img/sina.png"></a></li>
+				<li><a href="http://weibo.com/"><img src="img/sina_weibo.png"></a></li>
+				<li><a href="https://www.9xiu.com"><img src="img/9xiu.png"></a></li>
+				<li><a href="https://www.ctrip.com"><img src="img/xiecheng.png"></a></li>
+				<li><a href="http://www.qq.com/"><img src="img/tengxun.png"></a></li>
+				<li><a href="https://hao.360.cn/"><img src="img/360nav.png"></a></li>
+				<li><a href="https://ai.taobao.com/"><img src="img/aitaobao.png"></a></li>
+			</ul>
+		</div>
+		<div class="pc_list">
+			<div class="pc_list_tit">
+				<div class="active" id="tj">推荐</div>
+				<div id="gw">购物</div>
+				<div id="sp">视频</div>
+				<div id="yx">游戏</div>
+				<div id="xw">新闻</div>
+				<div id="zzs">涨姿势</div>
+				<div id="ty">体育</div>
+				<div>...</div>
+			</div>
+			<div class="pc_list_lists">
+				<div id="tjlist" class="active">
+					<ul>
+						<li style="background-image:url(https://www.baidu.com/favicon.ico);"><a href="">百度</a></li>
+						<li style="background-image:url(https://www.hao123.com/favicon.ico);"><a href="">hao123</a></li>
+						<li style="background-image:url(http://www.sina.com.cn/favicon.ico);"><a href="">新浪</a></li>
+						<li style="background-image:url(http://www.pconline.com.cn/favicon.ico);"><a href="">太平洋下载站</a></li>
+						<li style="background-image:url(http://www.mydown.com/TLimages2009/topspeed/favicon.ico);"><a href="">极速下载</a></li>
+						<li style="background-image:url(http://www.qq.com/favicon.ico);"><a href="">腾讯</a></li>
+						<li style="background-image:url(http://www.163.com/favicon.ico);"><a href="">网易</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">天猫精选</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">淘抢购</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">聚划算</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">爱淘宝</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">苏宁易购</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">国美在线</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">当当</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">京东商城</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">网易严选</a></li>
+						<li style="background-image:url(https://www.sysceo.com/Public/images/favicon.ico);"><a href="">IT论坛</a></li>
+						<li style="background-image:url(http://www.zol.com.cn/favicon.ico);"><a href="">中关村</a></li>
+						<li style="background-image:url(http://www.pconline.com.cn/favicon.ico);"><a href="">太平洋电脑</a></li>
+						<li style="background-image:url(http://www.pcauto.com.cn/favicon.ico);"><a href="">太平洋汽车</a></li>
+						<li style="background-image:url(https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-15/bd1fd98927a0f92b87a0d23f53c77ef0.png);"><a href="">去哪儿网</a></li>
+					</ul>
+				</div>
+				<div id="gwlist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">天猫精选</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">天猫超市</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">淘抢购</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">京东商城</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">聚划算</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">爱淘宝</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">苏宁易购</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">国美在线</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">当当</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">一号店</a></li>
+						<li style="background-image:url(https://s10.mogucdn.com/new1/v1/bmisc/3ce382db3c8aaca5d07bd36711e77134/171169993508.ico);"><a href="">蘑菇街</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">网易严选</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">唯品会</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">亚马逊</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">百度糯米</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">有货网</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">优购</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">蜜芽</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">聚美优品</a></li>
+					</ul>
+				</div>
+				<div id="splist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">爱奇艺</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">优酷网</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">哔哩哔哩</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">六间房秀场</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">斗鱼TV</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">秀色直播</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">2345视频</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">虎牙直播</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">战旗TV</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">百度视频</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">腾讯视频</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">芒果TV</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">搜狐视频</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">乐视视频</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">凤凰视频</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">天天看看</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">新浪视频</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">PPTV</a></li>
+					</ul>
+				</div>
+				<div id="yxlist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">游戏</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">优酷网</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">哔哩哔哩</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">六间房秀场</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">斗鱼TV</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">秀色直播</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">2345视频</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">虎牙直播</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">战旗TV</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">百度视频</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">腾讯视频</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">芒果TV</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">搜狐视频</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">乐视视频</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">凤凰视频</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">天天看看</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">新浪视频</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">PPTV</a></li>
+					</ul>
+				</div>
+				<div id="xwlist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">新闻</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">优酷网</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">哔哩哔哩</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">六间房秀场</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">斗鱼TV</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">秀色直播</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">2345视频</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">虎牙直播</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">战旗TV</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">百度视频</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">腾讯视频</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">芒果TV</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">搜狐视频</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">乐视视频</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">凤凰视频</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">天天看看</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">新浪视频</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">PPTV</a></li>
+					</ul>
+				</div>
+				<div id="zzslist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">涨姿势</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">优酷网</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">哔哩哔哩</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">六间房秀场</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">斗鱼TV</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">秀色直播</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">2345视频</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">虎牙直播</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">战旗TV</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">百度视频</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">腾讯视频</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">芒果TV</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">搜狐视频</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">乐视视频</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">凤凰视频</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">天天看看</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">新浪视频</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">PPTV</a></li>
+					</ul>
+				</div>
+				<div id="tylist">
+					<ul>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">体育</a></li>
+						<li style="background-image:url(https://www.tmall.com/favicon.ico);"><a href="">优酷网</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">哔哩哔哩</a></li>
+						<li style="background-image:url(https://www.jd.com/favicon.ico);"><a href="">六间房秀场</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">斗鱼TV</a></li>
+						<li style="background-image:url(https://www.taobao.com/favicon.ico);"><a href="">秀色直播</a></li>
+						<li style="background-image:url(http://www.suning.com/favicon.ico);"><a href="">2345视频</a></li>
+						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);"><a href="">虎牙直播</a></li>
+						<li style="background-image:url(http://www.dangdang.com/favicon.ico);"><a href="">战旗TV</a></li>
+						<li style="background-image:url(http://www.yhd.com/favicon.ico);"><a href="">百度视频</a></li>
+						<li style="background-image:url(http://you.163.com/favicon.ico);"><a href="">腾讯视频</a></li>
+						<li style="background-image:url(http://www.vip.com/favicon.ico);"><a href="">芒果TV</a></li>
+						<li style="background-image:url(https://www.amazon.cn/favicon.ico);"><a href="">搜狐视频</a></li>
+						<li style="background-image:url(https://www.nuomi.com/static/common/img/favicon.ico);"><a href="">乐视视频</a></li>
+						<li style="background-image:url(http://www.yohobuy.com/favicon.ico);"><a href="">凤凰视频</a></li>
+						<li style="background-image:url(http://www.yougou.com/favicon.ico);"><a href="">天天看看</a></li>
+						<li style="background-image:url(https://www.mia.com/favicon.ico);"><a href="">新浪视频</a></li>
+						<li style="background-image:url(http://gz.jumei.com/favicon.ico);"><a href="">PPTV</a></li>
+					</ul>
+				</div>
+				<script>
+					nav();
+				</script>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
