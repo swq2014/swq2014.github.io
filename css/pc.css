@@ -1,6 +1,6 @@
 @charset 'utf8';
 /*初始化*/
-body{margin: 0;padding: 0;background-color: rgb(204,232,207);}
+body{margin: 0;padding: 0;background-color: rgb(204,232,207);cursor:url(../favicon.ico),auto;}
 ul{list-style: none;margin: 0;padding: 0}
 img{border: none;}
 div{margin: 0;padding: 0;box-sizing: border-box;}
@@ -18,8 +18,12 @@ a{text-decoration: none;color: #222}
 .pc_seach div:last-child input:hover{cursor: pointer;}
 /**/
 .pc_nav{width: 1200px;height: 320px;margin: 20px 0;overflow: hidden;}
-.pc_nav ul li{float: left;width: 225px;height: 125px;margin: 20px 15px 0 0;}
-.pc_nav ul li img{border-radius: 5px;}
+.pc_nav div{float: left;width: 225px;height: 130px;margin: 5px;font-size: 14px;color: white;overflow: hidden;}
+.pc_nav_1{position: relative;}
+.pc_nav_1:hover div{transform: translate(0px,124px);transition: .25s}
+.pc_nav_1 div{position: absolute;left: 0px;top: -25px;background: rgba(200,197,196,.4);margin: 0;width: 100%;height: 25px;
+	padding-left: 10px;line-height: 25px;}
+.pc_nav_1 div a{color: white;}
 /**/
 .pc_list{width: 1200px;height: 170px;overflow: hidden;position: relative;}
 .pc_list_tit{width: 962px;height: 30px;overflow: hidden;border-radius: 3px;
