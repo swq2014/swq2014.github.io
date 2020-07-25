@@ -6,13 +6,22 @@ img{border: none;}
 div{margin: 0;padding: 0;box-sizing: border-box;}
 a{text-decoration: none;color: #222}
 /**/
+*+html .pc{margin: 10px auto\9;}
+.pc{margin: 10px auto\0;}
+*+html .go{float: left;width: 100px;height: 40px;border: none;background-color: rgb(47,158,250);
+	color: white;font-size: 16px;}
+.go{float: left;width: 100px;height: 40px;border: none;background-color: rgb(47,158,250)\0;
+	color: white;font-size: 16px;}
+*+html .pc_list_lists ul li{float: left;height: 20px;margin: 20px 20px 0px;background: 0px 0px no-repeat;
+	background-size: 20px 20px\9;-ms-background-size: 20px 20px;-webkit-background-size: 20px 20px;padding-left: 25px;width:100px;}
+/**/
 .pc{width: 1200px;height: 800px;min-width: 120px;}
 .pc_seach,.pc_footer{animation: move 1s;animation-fill-mode:forwards;}
 .pc_nav,.pc_list{animation: move 3s;animation-fill-mode:forwards;}
 .time{animation: move 1s;animation-fill-mode:forwards;margin:10px auto;}
 @keyframes move{
-	0%{transform: translate(0,0);}
-	100%{transform: translate(370px,0);}
+	0%{-ms-transform: translate(-1200px,0);-webkit-transform: translate(0px,0);}
+	100%{-ms-transform: translate(0px,0);-webkit-transform: translate(360px,0);}
 }
 /**/
 .pc_seach{width: 630px;height: 130px;margin: 50px auto 0;overflow: hidden;}
@@ -20,15 +29,17 @@ a{text-decoration: none;color: #222}
 .time{text-align: center;color: red;font-weight: bold;letter-spacing: 4px;border: 1px dashed orange;width: 300px;}
 .pc_seach div:first-child{box-shadow: 5px 5px 5px #ccc;}
 .pc_seach div:first-child input{float: left;padding-left: 20px;border: none;width: 500px;height: 40px;
+	background-color: white;line-height: 40px;
 	outline: none;font-size: 18px;}
-.pc_seach div:last-child input{float: left;width: 100px;height: 40px;border: none;
-	background-color: rgba(47,158,250,.7);color: white;font-size: 16px;}
+.pc_seach div:last-child input{float: left;width: 100px;height: 40px;border: none;background-color: rgba(47,158,250,.7);
+	color: white;font-size: 16px;}
 .pc_seach div:last-child input:hover{cursor: pointer;}
 /**/
 .pc_nav{width: 1200px;height: 300px;overflow: hidden;}
 .pc_nav div{float: left;width: 225px;height: 130px;margin: 5px;font-size: 14px;color: white;overflow: hidden;}
 .pc_nav_1{position: relative;}
 .pc_nav_1:hover div{transform: translate(0px,124px);transition: .25s}
+/**+html .pc_nav_1:hover div{transform: translate(0px,124px)\9;transition: .25s\9}*/
 .pc_nav_1 div{position: absolute;left: 0px;top: -25px;background: rgba(200,197,196,.4);margin: 0;width: 100%;height: 25px;
 	padding-left: 10px;line-height: 25px;}
 .pc_nav_1 div a{color: white;}

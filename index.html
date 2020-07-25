@@ -8,14 +8,19 @@
 	<link rel="stylesheet" href="css/pc.css">
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/js.js"></script>
+	<!--[if lte IE 6]>
+       <style type="text/css">
+       body { behavior:url("js/csshover.htc"); }
+       </style>
+	<![endif]-->
 </head>
 <body>
 	<div class="pc">
 		<div class="pc_seach">
 			<h2>大脚导航</h2>
 			<form action="http://www.baidu.com/s" method="get">
-				<div><input type="text" name="wd" autocomplete="off"></div>
-				<div><input type="submit" value="go"></div>
+				<div><input type="text" name="wd" autocomplete="off" value="舒大少博客"></div>
+				<div><input type="submit" value="go" class="go"></div>
 			</form>
 		</div>
 		<div class="time">
@@ -81,67 +86,67 @@
 			<div class="pc_list_lists">
 				<div id="tjlist" class="active">
 					<ul>
-						<li style="background-image:url(https://www.baidu.com/favicon.ico);">
+						<li style="background-image:url(ico/baidu.ico);">
 							<a href="https://www.baidu.com/">百度</a>
 						</li>
-						<li style="background-image:url(https://www.hao123.com/favicon.ico);">
+						<li style="background-image:url(ico/hao123.ico);">
 							<a href="https://www.hao123.com/">hao123</a>
 						</li>
-						<li style="background-image:url(http://www.sina.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/xinlang.ico);">
 							<a href="http://www.sina.com.cn/">新浪</a>
 						</li>
-						<li style="background-image:url(http://www.pconline.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/taipingyang.ico);">
 							<a href="http://www.pconline.com.cn/">太平洋下载站</a>
 						</li>
-						<li style="background-image:url(http://www.mydown.com/TLimages2009/topspeed/favicon.ico);">
+						<li style="background-image:url(ico/jisuxiazai.ico);">
 							<a href="http://www.mydown.com/">极速下载</a>
 						</li>
-						<li style="background-image:url(http://www.qq.com/favicon.ico);">
+						<li style="background-image:url(ico/tengxun.ico);">
 							<a href="http://www.qq.com/">腾讯</a>
 						</li>
-						<li style="background-image:url(http://www.163.com/favicon.ico);">
+						<li style="background-image:url(ico/wangyi.ico);">
 							<a href="http://www.163.com/">网易</a>
 						</li>
-						<li style="background-image:url(https://www.tmall.com/favicon.ico);">
+						<li style="background-image:url(ico/tmall.ico);">
 							<a href="https://www.tmall.com/">天猫精选</a>
 						</li>
-						<li style="background-image:url(https://www.taobao.com/favicon.ico);">
+						<li style="background-image:url(ico/taobao.ico);">
 							<a href="https://www.taobao.com/">淘抢购</a>
 						</li>
-						<li style="background-image:url(https://www.taobao.com/favicon.ico);">
+						<li style="background-image:url(ico/juhuasuan.ico);">
 							<a href="https://www.taobao.com/">聚划算</a>
 						</li>
-						<li style="background-image:url(https://www.taobao.com/favicon.ico);">
+						<li style="background-image:url(ico/taobao.ico);">
 							<a href="https://www.taobao.com/">爱淘宝</a>
 						</li>
-						<li style="background-image:url(http://www.suning.com/favicon.ico);">
+						<li style="background-image:url(ico/suning.ico);">
 							<a href="http://www.suning.com">苏宁易购</a>
 						</li>
-						<li style="background-image:url(http://www.gome.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/guomei.ico);">
 							<a href="http://www.gome.com.cn">国美在线</a>
 						</li>
-						<li style="background-image:url(http://www.dangdang.com/favicon.ico);">
+						<li style="background-image:url(ico/dangdang.ico);">
 							<a href="http://www.dangdang.com/">当当</a>
 						</li>
-						<li style="background-image:url(https://www.jd.com/favicon.ico);">
+						<li style="background-image:url(ico/jd.ico);">
 							<a href="https://www.jd.com/">京东商城</a>
 						</li>
-						<li style="background-image:url(http://you.163.com/favicon.ico);">
+						<li style="background-image:url(ico/wangyiyanxuan.ico);">
 							<a href="http://you.163.com/">网易严选</a>
 						</li>
-						<li style="background-image:url(https://www.sysceo.com/Public/images/favicon.ico);">
+						<li style="background-image:url(ico/itbbs.ico);">
 							<a href="https://www.sysceo.com/">IT论坛</a>
 						</li>
-						<li style="background-image:url(http://www.zol.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/zol.ico);">
 							<a href="http://www.zol.com.cn/">中关村</a>
 						</li>
-						<li style="background-image:url(http://www.pconline.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/taipingyang.ico);">
 							<a href="http://www.pconline.com.cn/">太平洋电脑</a>
 						</li>
-						<li style="background-image:url(http://www.pcauto.com.cn/favicon.ico);">
+						<li style="background-image:url(ico/taipingyangcar.ico);">
 							<a href="http://www.pcauto.com.cn/">太平洋汽车</a>
 						</li>
-						<li style="background-image:url(https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-15/bd1fd98927a0f92b87a0d23f53c77ef0.png);">
+						<li style="background-image:url(ico/qunaer.png);">
 							<a href="http://taobao.com">去哪儿网</a>
 						</li>
 					</ul>
