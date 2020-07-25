@@ -1,5 +1,5 @@
-window.onload=
-setInterval(function(){
+function times(){
+	setInterval(function(){
 	var h1=document.getElementById('hours');
 	var m1=document.getElementById('min');
 	var s1=document.getElementById('sc');
@@ -10,6 +10,7 @@ setInterval(function(){
 	m<10?m1.innerHTML="0"+m+":":m1.innerHTML=m+":";
 	s<10?s1.innerHTML="0"+s:s1.innerHTML=s;
 },1000);
+}
 function week(){
 	var w1=document.getElementById("week");
 	var w=new Date().getDay();
