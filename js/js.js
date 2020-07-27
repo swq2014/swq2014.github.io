@@ -39,115 +39,31 @@ function week(){
 }
 function nav(){
 $("#tj").hover(function(){
-		$("#tj").addClass("active");
-		$("#gw").removeClass("active");
-		$("#sp").removeClass("active");
-		$("#yx").removeClass("active");
-		$("#xw").removeClass("active");
-		$("#zzs").removeClass("active");
-		$("#ty").removeClass("active");
-		$("#tjlist").addClass("active");
-		$("#gwlist").removeClass("active");
-		$("#splist").removeClass("active");
-		$("#yxlist").removeClass("active");
-		$("#xwlist").removeClass("active");
-		$("#zzslist").removeClass("active");
-		$("#tylist").removeClass("active");
+	$("#tj,#tjlist").addClass("active");
+	$("#gw,#sp,#yx,#xw,#zzs,#ty,#gwlist,#splist,#yxlist,#xwlist,#zzslist,#tylist").removeClass("active");
 })
 $("#gw").hover(function(){
-	$("#gw").addClass("active");
-	$("#tj").removeClass("active");
-	$("#sp").removeClass("active");
-	$("#yx").removeClass("active");
-	$("#xw").removeClass("active");
-	$("#zzs").removeClass("active");
-	$("#ty").removeClass("active");
-	$("#gwlist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#splist").removeClass("active");
-	$("#yxlist").removeClass("active");
-	$("#xwlist").removeClass("active");
-	$("#zzslist").removeClass("active");
-	$("#tylist").removeClass("active");
+	$("#gw,#gwlist").addClass("active");
+	$("#tj,#sp,#yx,#xw,#zzs,#ty,#tjlist,#splist,#yxlist,#xwlist,#zzslist,#tylist").removeClass("active");
 })
 $("#sp").hover(function(){
-	$("#sp").addClass("active");
-	$("#tj").removeClass("active");
-	$("#gw").removeClass("active");
-	$("#yx").removeClass("active");
-	$("#xw").removeClass("active");
-	$("#zzs").removeClass("active");
-	$("#ty").removeClass("active");	
-	$("#splist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#gwlist").removeClass("active");
-	$("#yxlist").removeClass("active");
-	$("#xwlist").removeClass("active");
-	$("#zzslist").removeClass("active");
-	$("#tylist").removeClass("active");
+	$("#sp,#splist").addClass("active");
+	$("#gw,#tj,#yx,#xw,#zzs,#ty,#tjlist,#gwlist,#yxlist,#xwlist,#zzslist,#tylist").removeClass("active");
 })
 $("#yx").hover(function(){
-	$("#yx").addClass("active");
-	$("#tj").removeClass("active");
-	$("#gw").removeClass("active");
-	$("#sp").removeClass("active");
-	$("#xw").removeClass("active");
-	$("#zzs").removeClass("active");
-	$("#ty").removeClass("active");	
-	$("#yxlist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#splist").removeClass("active");
-	$("#gwlist").removeClass("active");
-	$("#xwlist").removeClass("active");
-	$("#zzslist").removeClass("active");
-	$("#tylist").removeClass("active");
+	$("#yx,#yxlist").addClass("active");
+	$("#gw,#tj,#sp,#xw,#zzs,#ty,#tjlist,#gwlist,#splist,#xwlist,#zzslist,#tylist").removeClass("active");
 })
 $("#xw").hover(function(){
-	$("#xw").addClass("active");
-	$("#tj").removeClass("active");
-	$("#gw").removeClass("active");
-	$("#sp").removeClass("active");
-	$("#yx").removeClass("active");
-	$("#zzs").removeClass("active");
-	$("#ty").removeClass("active");	
-	$("#xwlist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#splist").removeClass("active");
-	$("#yxlist").removeClass("active");
-	$("#gwlist").removeClass("active");
-	$("#zzslist").removeClass("active");
-	$("#tylist").removeClass("active");
+	$("#xw,#xwlist").addClass("active");
+	$("#gw,#tj,#sp,#yx,#zzs,#ty,#tjlist,#gwlist,#splist,#yxlist,#zzslist,#tylist").removeClass("active");
 })
 $("#zzs").hover(function(){
-	$("#zzs").addClass("active");
-	$("#tj").removeClass("active");
-	$("#gw").removeClass("active");
-	$("#sp").removeClass("active");
-	$("#yx").removeClass("active");
-	$("#xw").removeClass("active");
-	$("#ty").removeClass("active");	
-	$("#zzslist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#splist").removeClass("active");
-	$("#yxlist").removeClass("active");
-	$("#xwlist").removeClass("active");
-	$("#gwlist").removeClass("active");
-	$("#tylist").removeClass("active");
+	$("#zzs,#zzslist").addClass("active");
+	$("#gw,#tj,#sp,#yx,#xw,#ty,#tjlist,#gwlist,#splist,#yxlist,#xwlist,#tylist").removeClass("active");
 })
 $("#ty").hover(function(){
-	$("#ty").addClass("active");
-	$("#tj").removeClass("active");
-	$("#gw").removeClass("active");
-	$("#sp").removeClass("active");
-	$("#yx").removeClass("active");
-	$("#xw").removeClass("active");
-	$("#zzs").removeClass("active");	
-	$("#tylist").addClass("active");
-	$("#tjlist").removeClass("active");
-	$("#splist").removeClass("active");
-	$("#yxlist").removeClass("active");
-	$("#xwlist").removeClass("active");
-	$("#zzslist").removeClass("active");
-	$("#gwlist").removeClass("active");
+	$("#ty,#tylist").addClass("active");
+	$("#gw,#tj,#sp,#yx,#xw,#zzs,#tjlist,#gwlist,#splist,#yxlist,#xwlist,#zzslist").removeClass("active");
 })
 }

@@ -57,5 +57,5 @@ position: relative;}
 /**/
 .pc_footer{width: 1200px;height: 50px;clear: both;margin: 50px 0;text-align: center;color: orange;}
 /**/
-.pc_list_lists div i{display: block;float: left;position: absolute;left: 0;}
-.pc_list_lists div i img{width: 20px;height: 20px;padding-right: 10px;}
+.pc_list_lists div ul li i{display: block;float: left;position: absolute;left: 0;}
+.pc_list_lists div ul li i img{width: 20px;height: 20px;padding-right: 10px;}
